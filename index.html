@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management System</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <form id="employee-form">
+        <div class="s">
+            <div class="m">
+                <label for="name">Enter Name</label><br>
+                <input type="text" id="name" placeholder="Name">
+            </div>
+            <div class="m">
+                <label for="profession">Enter Profession</label><br>
+                <input type="text" id="profession" placeholder="Profession">
+            </div>
+            <div class="m">
+                <label for="age">Enter Age</label><br>
+                <input type="number" id="age" placeholder="Age">
+            </div>
+        </div>
+        <button type="submit">Add Employee</button>
+    </form>
+
+    <div id="error-message" class="error" style="display: none;">Error : Please Make sure All the fields are filled before adding in an employee !</div>
+    
+    <div id="success-message" class="success" style="display: none;">Success : Employee Added!</div>
+
+    <h2>Added Employees</h2>
+    <div id="employee-list">
+        <p id="no-employees-msg" class="no-employees">You have 0 Employees.</p>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

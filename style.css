@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 40px 20px; 
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    
+    min-height: 100vh; 
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input, button {
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #13161C;
+    border: none;
+    color: #ffffff;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
+
+.employee {
+    margin-bottom: 10px;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    display: inline-block;
+}
+
+.delete-btn {
+    background-color: #1E2127;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.delete-btn:hover {
+    opacity: 0.8;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.employee-container {
+    overflow: hidden;
+    margin-bottom: 10px;
+    
+}
+
+.m {
+    display: grid;
+    justify-content: space-between;
+}
+
+.s {
+    display: flex;
+}
